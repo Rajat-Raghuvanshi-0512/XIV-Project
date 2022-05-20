@@ -30,6 +30,7 @@ const ServiceCard = ({ heading, desc, linkText, link, image }) => {
                 </div>
             </div>
             <div className="col-6">
+                <h2 className='servicesH2_screen'>{heading}</h2>
                 <img src={`/images/${image}`} alt="noimg" className='serviceImage' />
             </div>
         </div>

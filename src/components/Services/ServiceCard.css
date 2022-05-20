@@ -15,7 +15,8 @@
 .services_description {
 	padding-right: 25%;
 }
-.servicesH2 {
+.servicesH2,
+.servicesH2_screen {
 	font-size: 300%;
 	font-weight: lighter;
 	padding-top: 25px;
@@ -39,6 +40,9 @@
 }
 .servicesLink:hover img {
 	animation: animateLink 0.4s linear forwards;
+}
+.servicesH2_screen {
+	display: none;
 }
 .serviceImage {
 	height: 100%;
@@ -65,5 +69,36 @@
 	}
 	to {
 		transform: translateY(0%);
+	}
+}
+
+@media (max-width: 767px) {
+	.row {
+		flex-direction: column-reverse;
+		padding: 0px 20px;
+	}
+	.col-6 {
+		max-width: 100%;
+		flex: 0 0 0;
+	}
+	.serviceImage {
+		width: 100%;
+		height: inherit;
+		object-fit: cover;
+	}
+	.servicesH2 {
+		display: none;
+	}
+	.servicesH2_screen {
+		display: block;
+		padding: 30px 0;
+	}
+	.servicesH3 {
+		padding: 10% 0;
+	}
+	.servicesLink {
+		padding-bottom: 10%;
+		color: blue;
+		font-size: 100%;
 	}
 }
