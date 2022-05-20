@@ -1,0 +1,21 @@
+.h-full {
+	min-height: 100vh;
+}
+.d-flex {
+	display: flex;
+}
+
+.all-center {
+	justify-content: center;
+	align-items: center;
+}
+.large {
+	font-size: 5rem;
+	font-weight: bold;
+}
+.services {
+	padding: 5% 4%;
+}
+.pr-3 {
+	padding-right: 15px;
+}

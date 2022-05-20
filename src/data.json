@@ -1,0 +1,30 @@
+[
+	{
+		"heading": "AI + RPA is what we do",
+		"desc": "Future-Proof your business. Drive efficiency, profitability and deliver on customer experience",
+		"linkText": "AI + RPA Automation",
+		"link": "AIandRpAutomation",
+		"image": "rp2.jpg"
+	},
+	{
+		"heading": "Make Bolder Choices",
+		"desc": "Digital focused strategies to realize market-changing ideas",
+		"linkText": "Build Better Apps",
+		"link": "enterprice-apps",
+		"image": "p1.png"
+	},
+	{
+		"heading": "Innovate with Speed",
+		"desc": "Create higher quality software, deliver on customer expectations and business goals",
+		"linkText": "DevOps",
+		"link": "delivery-pipeline-automation",
+		"image": "p2.jpg"
+	},
+	{
+		"heading": "Embrace Cloud",
+		"desc": "With Cloud-First accelerate innovation and optimize performance",
+		"linkText": "Cloud Services",
+		"link": "/cloud",
+		"image": "p3.jpg"
+	}
+]
